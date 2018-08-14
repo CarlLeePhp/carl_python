@@ -1,0 +1,19 @@
+Choose files -> give basic name -> rename these files by numbers
+
+Requirement:
++. Get something from keyboard
+
+
++.Back files name in a path
+  os.listdir(path)
+
+/*******
+dirs = os.listdir(path)
+
+# output
+for file in dirs:
+  print (file)
+*********/
+
++.Rename files
+  os.renames(old, new)
